@@ -99,6 +99,7 @@
   </a>
 </p>
 
-![Snake Animation](https://github.com/namankudesia/namankudesia/blob/output/github-snake-dark.svg)
+![Snake Animation](https://github.com/namankudesia/namankudesia/blob/output/github-snake.svg)
+
 
 
