@@ -12,13 +12,18 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Generate Snake Game Animation
+      - name: Generate Snake Animation
         uses: Platane/snk@master
         with:
-          github_user_name: namankudesia  # Ensure this is your correct username
-          outputs: |
-            dist/github-snake.svg
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_user_name: namankudesia  # Replace with your GitHub username
+          svg_out_path: dist/github-snake.svg  # Correct output path
+          gif_out_path: dist/github-snake.gif  # Generates a GIF too
+
+      - name: Upload Snake SVG as an Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: snake-artifacts
+          path: dist
 
       - name: Push the Generated Snake SVG to the Output Branch
         uses: crazy-max/ghaction-github-pages@v3
