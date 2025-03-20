@@ -98,4 +98,7 @@
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
-[snake gif](https://github.com/namankudesia/namankudesia/blob/output/github-snake.svg)
+
+![Snake Animation](https://github.com/namankudesia/namankudesia/blob/output/github-snake.svg)
+
+
