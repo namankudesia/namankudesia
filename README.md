@@ -48,7 +48,14 @@
 ![ChatGPT](https://img.shields.io/badge/ChatGPT-34A853?style=for-the-badge&logo=openai&logoColor=white)
 ![Bard AI](https://img.shields.io/badge/Bard_AI-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
----
+### **Pega Development**  
+![Pega](https://img.shields.io/badge/Pega-034EA2?style=for-the-badge&logo=pega&logoColor=white)  
+
+### **MS Office & Productivity Tools**  
+![Microsoft Office](https://img.shields.io/badge/MS%20Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white)  
+
+### **Operating Systems**  
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)  ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)  
 
 ## 📊 GitHub Stats  
 
