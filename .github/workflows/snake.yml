@@ -1,4 +1,4 @@
-name: Generate Snake
+name: Generate Snake Animation
 
 on:
   schedule:
@@ -16,15 +16,11 @@ jobs:
         id: snake
         uses: Platane/snk@master
         with:
-          github_user_name: namankudesia
-          outputs: dist/github-contribution-grid-snake.svg
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Export Output Path (Fix Deprecated `set-output`)
-        run: echo "OUTPUT_PATH=dist/github-contribution-grid-snake.svg" >> $GITHUB_ENV
+          github_user_name: namankudesia  # Replace with your GitHub username
+          svg_out_path: dist/github-contribution-grid-snake.svg  # Correct output path
 
       - name: Upload Snake Animation
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v4  # Update to latest version
         with:
           name: snake-gif
-          path: ${{ env.OUTPUT_PATH }}
+          path: dist/github-contribution-grid-snake.svg
