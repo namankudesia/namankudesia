@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://naman-kudesia-portfolio.netlify.app/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FF5733&width=600&lines=Passionate+Software+Engineer;Always+Learning+New+Technologies">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FF5733&width=600&lines=Passionate+Software+Engineer;Open+Source+Contributer;Always+Learning+New+Technologies">
   </a>
 </p>
 
